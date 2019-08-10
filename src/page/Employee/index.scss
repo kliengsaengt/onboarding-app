@@ -1,0 +1,42 @@
+.employee-page-wrapper{
+  margin-left: 150px;
+  width: 70%;
+  
+  .employee-title{
+    padding: 40px;
+    padding-left: 20px;
+    color: #56afdd;
+    border-bottom: 1px gray solid;
+  }
+  .list{
+    padding: 10px;
+    .search-area{
+      .group-by{
+        display: inline-block;
+      }
+      .select-by{
+        display: inline-block;
+      }
+    }
+    .employee-list{
+      .employee{
+        padding: 20px;
+        img{
+          width: 30px;
+        }
+        .employee-content{
+
+          display: inline-block;
+          .name{
+            font-weight: bold;
+            font-size: 26px;
+          }
+          .position{
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+
+}

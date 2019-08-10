@@ -1,0 +1,38 @@
+.file-page-wrapper{
+  display: flex;
+  width: 80%;
+  margin-left: 100px;
+  .left-component{
+    flex: 1;
+    height: 500px;
+  }
+  .file-list-wrapper{
+    flex: 4;
+    .all-file-title{
+      border-bottom: 1px black solid;
+      padding: 10px;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+
+    .file-list{
+      .file{
+        border-bottom: 1px darkslategray solid;
+        padding: 5px;
+        input{
+
+        }
+        .file-content{
+          border: 1;
+          display:inline-block;
+          .file-name{
+            color: #006ec2;
+          }
+          .file-create{
+            color: #909090;
+          }
+        }
+      }
+    }
+  }
+}

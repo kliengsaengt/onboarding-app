@@ -1,0 +1,53 @@
+{
+    "members": [
+        {
+            "id": "1",
+            "name": "Jin",
+            "born": "1992",
+            "description":"Sub vocalist, Visual",
+            "image": "bts1"
+        },
+        {
+            "id": "2",
+            "name": "Suga",
+            "born": "1993",
+            "description":"Main Rapper",
+            "image": "bts2"
+        },
+        {
+            "id": "3",
+            "name": "RM",
+            "born": "1994",
+            "description":"Lead Rapper, Leader",
+            "image": "bts3"
+        },
+        {
+            "id": "4",
+            "name": "J-hope",
+            "born": "1994",
+            "description":"Main dancer",
+            "image": "bts4"
+        },
+        {
+            "id": "5",
+            "name": "Jimin",
+            "born": "1995",
+            "description":"Lead dancer",
+            "image": "bts5"
+        },
+        {
+            "id": "6",
+            "name": "Taehyung",
+            "born": "1995",
+            "description":"Visual",
+            "image": "bts6"
+        },
+        {
+            "id": "7",
+            "name": "Jungkook",
+            "born": "1997",
+            "description":"Maknae, main vocalist",
+            "image": "bts7"
+        }
+    ]
+}

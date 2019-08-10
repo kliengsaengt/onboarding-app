@@ -1,0 +1,43 @@
+.nav-bar-wrapper{
+  .header{
+
+    background-color: #ebebeb;
+    display: flex;
+    padding:16px 150px 17px 155px; 
+    .logo{
+      flex: 1;
+      .logo-image{
+        width: 130px;
+      }
+    } 
+    .profile{
+      text-align: right;
+      flex: 5;
+      // justify-content: flex-end;
+      align-content: flex-end;
+    }
+  }
+  .menu-wrapper{
+    padding: 0 150px;
+    background-color: #222;
+    ul{
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      // margin-left: 50px;
+      li{
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        color: white;
+        margin-right: 10px;
+        &:hover{
+          font-weight: bold;
+          background-color: lightgray;
+        }
+      }
+    }
+  }
+    
+}

@@ -1,0 +1,158 @@
+@import '../../scss/_variable';
+
+.home-page-wrapper{
+  .home-title{
+    background-color: #56afdd;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    color: white;
+    padding-left: 50px;
+    font-size: 30px;
+    padding-left: 150px;
+  }
+
+  .home-content-wrapper{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    margin-left: 150px;
+    .home-page-left-panel{
+      width: 350px;
+      flex: 1;
+      .home-info-wrapper{
+        // height: 500px;
+        border-radius: 3px;
+        border-radius: 4px;
+        // margin-bottom: 40px;
+        // width: 350px;
+        // border: 1px  solid;
+        .my-profile-title-on-home-page{
+          background-color: $header-background;
+          color: white;
+          width: 350px;
+          // border: 1px $border-color solid;
+          position: relative;
+          height: 70px;
+          font-size: 20px;
+          font-weight: bold;
+          .my-picture{
+            width: 70px;
+            position: absolute;
+            top: -10px;
+            border-radius: 50%;
+          }
+          .name{
+            position: absolute;
+            vertical-align: bottom;
+            margin-left: 90px;
+            margin-top: 20px;
+          }
+        }
+        .my-profile-content-on-home-page{
+          // margin-left: 50px;
+          border: 1px gray solid;
+          width: 350px;
+          background-color: white;
+          .request-time-off{
+            padding: 20px;
+            // color: rgb(240, 215, 215);
+            border-bottom: 1px $border-color solid;
+            .button{
+
+              background-color: #56afdd;
+              border-radius: 3px;
+              padding: 10px;
+              color: white;
+            }
+          }
+          .who-is-out-wrapper{
+            border-bottom: 1px $border-color solid;
+            color: gray;
+            padding: 10px;
+            .who-is-out{
+              font-weight: bold
+            }
+            .list-person{
+              color:  gray;
+              overflow: scroll;
+              height: 200px;
+              .who-is-out{
+                padding: 15px;
+                // border-bottom: 1px lightslategray solid;
+              }
+            }
+          }
+          .celebration{
+            padding: 10px;
+            color:  gray;
+            height: 200px;
+            overflow: scroll;
+            .celebration-name{
+              padding: 10px;
+              border-bottom: 1px lightslategray solid;
+              .image{
+                width: 30px;
+                border: 50%;
+              }
+            }
+          }
+        }
+      }
+      .home-company-info-wrapper{
+        border: 1px gray solid;
+        border-radius: 3px;
+        // border: 1px $border-color solid;
+        border-radius: 4px;
+        // background-color: white;
+        // margin-left: 50px;
+        margin-top: 40px;
+      }
+    }
+
+
+
+
+    .home-page-right-panel{
+      // border: 1px gray solid;
+      // margin-top: 40px;
+      width: 600px;
+      height: 300px;
+      flex: 3;
+
+      margin-left: 50px;
+      .what-happen-board{
+        border: 1px gray solid;
+        border-radius: 4px;
+        background-color: white;
+        .title{
+          color: white;
+          padding: 15px;
+          background-color: #0D98BA;
+          // background-color: $header-background;
+          .anoucement{
+            text-align: right;
+          }
+        }
+        .content{
+          height: 300px;
+          padding: 10px;
+        }
+      }
+      .welcome-board{
+        margin-top: 40px;
+        background-color: white;
+        border: 1px gray solid;
+        border-radius: 4px;
+        .title{
+          color: white;
+        }
+        .content{
+          height: 300px;
+          padding: 10px;
+        }
+      }
+
+    }
+  }
+}
