@@ -114,7 +114,7 @@ const HomePageRightPanel = () => {
 
         <div className="what-happen-board">
           <div className="title">
-            WHAT'S HAPPENING AT 30 SECONDSTOFLY (THAILAND) CO., LTD
+            WHAT'S HAPPENING AT BP (THAILAND) CO., LTD
           <span className="anoucement">Annoucements</span>
           </div>
 
@@ -126,7 +126,7 @@ const HomePageRightPanel = () => {
         </div>
 
         <div className="welcome-board">
-          <div className="title">Welcome to 30seondstofly ja</div>
+          <div className="title">Welcome to BP</div>
         
           <div className="content">
 
