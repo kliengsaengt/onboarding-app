@@ -1,23 +1,17 @@
 .my-info-page-wrapper{
+  background: linear-gradient(180deg, #56afdd 50%, #FFFFFF 50%);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  
   .my-info-page-title{
-    background-color: #56afdd;
-    // position: relative;
     color: white;
     padding: 30px 0 50px 400px;
-    // left: 120px;
     font-size: 30px;
   }
   .my-info-page-content-wrapper{
-    position: absolute;
-    top: 150px;
+    margin: 0 150px;
     display: flex;
-
-    margin-left:150px;
     .my-info-left{
-      // position: absolute;
-      flex: 1;
-      // margin-left: 30px;
-      // top: 200px;
       margin-right: 35px;
       width: 175px;
       .me{
@@ -35,31 +29,21 @@
         .title{
           color: #56afdd;
         }
-
       }
     }
     .my-info-right{
-      // position: absolute;
-      // left: 280px;
-      // flex: 4;
-      // top: 300px;
-      margin-top: 70px;
       width: 700px;
       margin-left: 40px;
-      // top: 100px;
-      // background-color: pink;
       ul{
         display: flex;
         margin: 0;
         padding: 0;
         margin-left: 50px;
-        
         li{
           text-decoration: none;
           margin-right: 10px;
         }
       }
     }
-
   }
 }

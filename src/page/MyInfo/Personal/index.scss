@@ -1,0 +1,23 @@
+.personal-form{
+  .field-set{
+    border: 1px black solid;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  input {
+    border: none;
+    height: 32px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    appearance: none;
+    background: none;
+    outline: none;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+}

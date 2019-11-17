@@ -1,0 +1,17 @@
+.one-field-content-wrapper{
+  background: yellow;
+  width: 100%;
+  padding-top: 10px;
+  .field-set{
+    @include field-set-wrapper;
+      &.field-set-warn{
+      border: 1px #e63e52 solid;
+      .legend-text{
+        color: #e63e52;
+      }
+    }
+  }
+  .error-message{
+    @include error-message-wrapper;
+  }
+}

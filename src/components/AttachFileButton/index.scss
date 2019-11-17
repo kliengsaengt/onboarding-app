@@ -1,0 +1,33 @@
+.attach-file-button {
+    width: 107px;
+    height: 35px;
+    border: 1px #247ba0 solid;
+    border-radius: 3px;
+    padding: 7px 8px;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .attach-icon {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+    .attach-text {
+      font-size: 14px;
+      color: #247ba0;
+    }
+    &.disabled {
+      border: 1px solid #ccc;
+      pointer-events: none;
+      .attach-icon {
+        color: #ccc;
+      }
+      .attach-text {
+        color: #ccc,
+      }
+    }
+  }
+  

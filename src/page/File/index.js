@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AttachFileButton from '../../components/AttachFileButton'
 import './index.scss'
 
 class File extends Component {
@@ -26,16 +27,34 @@ class File extends Component {
           files
         </div>
 
+        <label
+            // htmlFor={`input-file-field-${label}`}
+            // className={inputClassName}
+          >
+            <AttachFileButton 
+            // isDisabled={error || isFileInputDisable} 
+            />
+          </label>
+          <input
+            // name={fieldName}
+            name='test'
+            type="file"
+            className="file-button"
+            // id={`input-file-field-${label}`}
+            // accept={acceptExtension}
+            // onChange={this.onChange}
+            // onClick={this.onBrowseClick}
+            // disabled={isReadMode || isFileInputDisable}
+          />
+
         <div className="file-list-wrapper">
           <div className="all-file-title">
-
             All files
-
           </div>
           <div className="file-list">
             {
               files.map((file, index) => {
-                return(
+                return (
                   <div className="file">
                     <input type="checkbox" />
                     <div className="file-content">
@@ -52,11 +71,9 @@ class File extends Component {
             }
           </div>
         </div>
-
       </div>
     )
   }
 }
-
 
 export default File

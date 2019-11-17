@@ -1,0 +1,61 @@
+.sign-in-form-wrapper {
+  height: 100vh;
+  margin: 0 150px;
+  text-align: center;
+  .header {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #1b2d40;
+    margin-bottom: 24px;
+    color: black;
+    margin-top: 24px;
+  }
+  input {
+    background: pink;
+    border: none;
+    height: 52px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: 1px black solid;
+    border-radius: 4px;
+  }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.one-field-content-wrapper {
+  margin-bottom: 16px;
+}
+.error {
+  color: #e63e52;
+}
+.sign-in-button {
+  margin-top: 20px;
+}
+.content {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: #c1cad1;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.forgot-password {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #009aef;
+}

@@ -11,28 +11,51 @@
   .list{
     padding: 10px;
     .search-area{
-      .group-by{
-        display: inline-block;
+      display: flex;
+      input{
+        border: none;
+        outline:none;
+        width: 200px;
+        border-bottom : 1px gray solid;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 16px;
+        padding: 4px;
+        height: 25px;
       }
-      .select-by{
-        display: inline-block;
+    
+      .group-by{
+        margin-right: 20px;
+        padding: 10px;
+        font-size: 16px;
       }
     }
     .employee-list{
+      
       .employee{
+        list-style: none;
         padding: 20px;
         img{
-          width: 30px;
+          border-radius: 50%;
+          width: 70px;
+          margin-right: 20px;
+          vertical-align: middle;
         }
         .employee-content{
-
+          vertical-align: middle;
+          color: black;
           display: inline-block;
           .name{
             font-weight: bold;
-            font-size: 26px;
+            font-size: 24px;
           }
           .position{
             color: gray;
+            font-size: 15px;
+          }
+          .position{
+            color: gray;
+            font-size: 15px;
           }
         }
       }

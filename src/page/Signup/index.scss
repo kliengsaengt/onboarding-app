@@ -1,0 +1,32 @@
+.sign-up-step-wrapper {
+  margin: 0 150px;
+  text-align: center;
+  padding-top: 50px;
+  .header{
+    color: darkslateblue;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .have-account-text{
+    padding: 18px;
+  }
+  input {
+    background: pink;
+    border: none;
+    height: 52px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: 1px black solid;
+    border-radius: 4px;
+  }  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+}

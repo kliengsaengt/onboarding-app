@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
+
 class Benefits extends Component {
-
-
   render() {
     return (
       <div>
-
-Benefits
+        Employee will see benefits after passing probation.
       </div>
     )
   }

@@ -1,0 +1,23 @@
+.dropdown-wrapper{
+  width: 150px;
+  cursor: pointer;
+  .input-section-wrapper{
+    width: 150px;
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 4px;
+  }
+  .list-section-wrapper{
+    border-radius: 4px;
+    width: 150px;
+    position: absolute;
+    border: 1px gray solid;
+    .item{
+      cursor: pointer;
+      padding:10px;
+      &:not(:last-child){
+        border-bottom: 1px gray solid;
+      }
+    }
+  }
+}

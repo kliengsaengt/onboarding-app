@@ -1,37 +1,51 @@
 @import '../../scss/_variable';
 
 .home-page-wrapper{
-  .home-title{
-    background-color: #56afdd;
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 140px;
-    color: white;
-    padding-left: 50px;
-    font-size: 30px;
-    padding-left: 150px;
+  background: linear-gradient(180deg, #56afdd 50%, #FFFFFF 50%);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  svg{
+    width: 20px;
+    background-color: yellow;
   }
-
+  .test-1{
+    width: 100%;
+    background: lightblue;
+    box-sizing: content-box;
+    div{
+      box-sizing: border-box;
+      width: 80px;
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+  .test-2{
+    width: 100%;
+    background: lightcoral;
+    display: flex;
+    justify-content: baseline;
+    div{
+      box-sizing: content-box;
+      width: 80px;
+      padding: 10px;
+    }
+  }
   .home-content-wrapper{
     display: flex;
-    position: absolute;
     top: 200px;
+    padding: 70px 0 40px 0;
     margin-left: 150px;
+    margin-right: 150px;
     .home-page-left-panel{
       width: 350px;
       flex: 1;
       .home-info-wrapper{
-        // height: 500px;
         border-radius: 3px;
         border-radius: 4px;
-        // margin-bottom: 40px;
-        // width: 350px;
-        // border: 1px  solid;
         .my-profile-title-on-home-page{
           background-color: $header-background;
           color: white;
           width: 350px;
-          // border: 1px $border-color solid;
           position: relative;
           height: 70px;
           font-size: 20px;
@@ -50,16 +64,14 @@
           }
         }
         .my-profile-content-on-home-page{
-          // margin-left: 50px;
           border: 1px gray solid;
           width: 350px;
+          border-radius: 4px;
           background-color: white;
           .request-time-off{
             padding: 20px;
-            // color: rgb(240, 215, 215);
-            border-bottom: 1px $border-color solid;
+            border-bottom: 2px $border-color solid;
             .button{
-
               background-color: #56afdd;
               border-radius: 3px;
               padding: 10px;
@@ -67,7 +79,7 @@
             }
           }
           .who-is-out-wrapper{
-            border-bottom: 1px $border-color solid;
+            border-bottom: 2px $border-color solid;
             color: gray;
             padding: 10px;
             .who-is-out{
@@ -76,10 +88,9 @@
             .list-person{
               color:  gray;
               overflow: scroll;
-              height: 200px;
+              height: 300px;
               .who-is-out{
                 padding: 15px;
-                // border-bottom: 1px lightslategray solid;
               }
             }
           }
@@ -89,37 +100,33 @@
             height: 200px;
             overflow: scroll;
             .celebration-name{
-              padding: 10px;
+              padding: 15px;
               border-bottom: 1px lightslategray solid;
               .image{
+                vertical-align: top;
                 width: 30px;
                 border: 50%;
+                margin-right: 10px;
+              }
+              &:last-child{
+                border-bottom:none;
               }
             }
           }
         }
       }
       .home-company-info-wrapper{
+        padding: 16px;
         border: 1px gray solid;
         border-radius: 3px;
-        // border: 1px $border-color solid;
         border-radius: 4px;
-        // background-color: white;
-        // margin-left: 50px;
         margin-top: 40px;
       }
     }
-
-
-
-
     .home-page-right-panel{
-      // border: 1px gray solid;
-      // margin-top: 40px;
       width: 600px;
       height: 300px;
       flex: 3;
-
       margin-left: 50px;
       .what-happen-board{
         border: 1px gray solid;
@@ -129,14 +136,15 @@
           color: white;
           padding: 15px;
           background-color: #0D98BA;
-          // background-color: $header-background;
           .anoucement{
             text-align: right;
           }
         }
         .content{
-          height: 300px;
+          height: 200px;
           padding: 10px;
+          font-size: 14px;
+          color: black;
         }
       }
       .welcome-board{
@@ -145,14 +153,31 @@
         border: 1px gray solid;
         border-radius: 4px;
         .title{
-          color: white;
+          padding: 10px;
+          color: #56afdd;
+          text-decoration: underline;
         }
         .content{
           height: 300px;
           padding: 10px;
+          display: flex;
+          .welcome-image{
+
+            .my-picture{
+              width: 70px;
+              height: 70px;
+              vertical-align: top;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+          }
+          .text{
+            color: darkslategrey;
+            word-break: break-word;
+            font-size: 15px;
+          }
         }
       }
-
     }
   }
 }

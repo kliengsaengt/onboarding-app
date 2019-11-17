@@ -1,0 +1,26 @@
+.two-field-content-wrapper {
+  width: 100%;
+    padding-top: 10px;
+    .fields-content {
+        display: flex;
+        .field-set {
+      // @include field-set-wrapper;
+      &.field-set-warn {
+        border: 1px #e63e52 solid;
+        .legend-text {
+          color: #e63e52;
+        }
+      }
+      &:first-child {
+        width: 180px !important;
+        margin-right: 8px;
+      }
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+  .error-message {
+    @include error-message-wrapper;
+  }
+}

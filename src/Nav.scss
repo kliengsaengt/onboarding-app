@@ -1,6 +1,5 @@
 .nav-bar-wrapper{
   .header{
-
     background-color: #ebebeb;
     display: flex;
     padding:16px 150px 17px 155px; 
@@ -10,11 +9,17 @@
         width: 130px;
       }
     } 
-    .profile{
-      text-align: right;
-      flex: 5;
-      // justify-content: flex-end;
+    .profile-maker{
       align-content: flex-end;
+      display: flex;
+      .profile{
+        border: 1px black solid;
+        padding: 8px;
+        border-radius: 4px; 
+        &:first-child{
+          margin-right: 10px;
+        }
+      }
     }
   }
   .menu-wrapper{
@@ -24,7 +29,6 @@
       display: inline-block;
       margin: 0;
       padding: 0;
-      // margin-left: 50px;
       li{
         padding: 10px 20px;
         text-decoration: none;
@@ -38,6 +42,5 @@
         }
       }
     }
-  }
-    
+  }   
 }
